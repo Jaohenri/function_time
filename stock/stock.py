@@ -13,7 +13,7 @@ class Stock:
         Args:
             name (str): Name of the product.
             stock (int): Initial product stock.
-            
+
         Raises:
             ValueError: If the initial stock is negative.
         """
@@ -23,7 +23,7 @@ class Stock:
 
     @property
     def stock(self) -> int:
-        """Returns the current stock quantity.
+        """Get the current stock quantity.
 
         Returns:
             int: Current product stock.
@@ -32,7 +32,7 @@ class Stock:
 
     @stock.setter
     def stock(self, new_stock: int) -> None:
-        """Defines a new stock quantity
+        """Sets a new stock quantity
 
         Ensures that the is stock is never negative.
         If it receives a negative value, a exception is raised.
