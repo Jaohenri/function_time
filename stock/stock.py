@@ -76,5 +76,3 @@ if __name__ == "__main__":
     ps5 = Stock("PS5", 10)
     ps5.sell(5)
     ps5.replenish(3)
-
-a
