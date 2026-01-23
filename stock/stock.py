@@ -77,3 +77,6 @@ if __name__ == "__main__":
     ps5.sell(5)
     ps5.replenish(3)
     print(ps5.stock)
+    ps5.sell(7)
+    ps5.replenish(3)
+    ps5.sell(5)
